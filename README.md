@@ -15,15 +15,17 @@ You'll get two tasks:
 You'll have to program a raffle game.
 
 Game rules:
-- a cashier has an unlimited number of tickets and when he sells a ticket, he records the name of the person who purchased the ticket;
-- when all the tickets are sold, a cashier counts the number of tickets each participant has and prepares a result report in the following format:
+- a cashier has an unlimited number of tickets;
+- a participant has to buy 1 or more tickets to take part in the game;
+- when the cashier sells a ticket, he keeps record of the number of tickets each participant has;
+- at the end, the cashier prepares a report in the following format:
     - participant #1: 8 tickets
     - participant #2: 15 tickets
     - participant #3: 1 ticket
     - etc
 
 
-Your endpoint should accept a cashier's report and select a winner.
+Your endpoint should accept the cashier's report and pick a winner. Each ticket has equal chances to be drawn, hence the chance to become a winner is proportional to the number of tickets. 
 The report is passed to your controller in a JSON format:
 ```json5
 [
