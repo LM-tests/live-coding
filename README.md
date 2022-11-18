@@ -1,6 +1,5 @@
 # Introduction
-During a 60-minute session, you have to demonstrate your coding skills.
-You'll get two tasks:
+You’ll be given 60 minutes to demonstrate your coding abilities across two different tasks, outlined below:
 1. C# algorithmic task (~40 minutes).
 2. SQL task (~20 minutes).
 
@@ -52,7 +51,7 @@ Your endpoint should return a response in the following format:
 Create an ASP.NET Core project with a Web API controller that can select a winner.
 
 # Task 2: Write SQL queries
-You're given a database with two tables.
+In this repo you'll find a DB with these two tables
 ![DB Schema](img/DB_schema.png)
 
 _Player table:_
