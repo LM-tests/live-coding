@@ -68,7 +68,7 @@ _PointStatistic table:_
 - GameDate: a date when a game took place.
 
 ## Write the following queries:
-1. Based on the statistics for the last 300 days, show IDs and names of the top 5 players who got the highest payouts.
+1. Based on the statistics for the last 300 days, show IDs and names of the top 3 players who got the highest payouts.
 
    `Payout = PointPrice * Points`
 
